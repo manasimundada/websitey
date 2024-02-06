@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your fav girlie</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="head">
+    <header class="navi">
+        <a href="index.html#home" class="manasilol">Manasi</a>
+        <nav>
+            <ul>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#achievements">Achievements</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+            </ul>
+        </nav>
+        <button>
+            <img src="sun.png" id="icon">
+        </button>
+    </header>
+    <section id="home">
+        <div class="text-container">
+            <p>Hi, I'm Manasi, currently pursuing my Computer Science degree at IIIT Hyderabad. Although I was born in India, I spent most of my childhood in the UK until I moved back after completing my 10th grade. I love to dance and listen to music, and most of all, I love my friends and family (you can hover over my photo to see them). </p><br>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/__.manasi/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/manasimundada" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/manasi-mundada-89a904205/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://mailto:manasi.mundada@students.iiit.ac.in" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <button id="download-resume" onclick="openResume()">Download Resume</button>
+        </div>
+        <div class="image-container" id="image-container">
+            <img src="manasi.png" alt="Manasi's Photo" id="manasi-image">
+            <video src="manasi.mov" alt="Manasi's Video" id="manasi-video" muted></video>
+        </div>        
+    </section>
+
+    <section id="education">
+        <div class="education-container">
+            <h1>Educational Background</h1>
+            <table class="education-table">
+                <tr>
+                    <th>School</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>North Primary School</td>
+                    <td>2010-2011</td>
+                </tr>
+                <tr>
+                    <td>West Vale Academy</td>
+                    <td>2011-2012</td>
+                </tr>
+                <tr>
+                    <td>Holy Trinity CofE Primary School</td>
+                    <td>2012-2014</td>
+                </tr>
+                <tr>
+                    <td>Symbiosis Primary School</td>
+                    <td>2014-2015</td>
+                </tr>
+                <tr>
+                    <td>Cedars Manor School</td>
+                    <td>2015-2015</td>
+                </tr>
+                <tr>
+                    <td>Grimsdyke School</td>
+                    <td>2015-2016</td>
+                </tr>
+                <tr>
+                    <td>Watford Grammar School for Girls</td>
+                    <td>2016-2021</td>
+                </tr>
+                <tr>
+                    <td>Disha Delphi Public School</td>
+                    <td>2021-2023</td>
+                </tr>
+                <tr>
+                    <td>IIIT-H yay!!</td>
+                    <td>2023-2027</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <section id="achievements">
+        <div class="achievements-container">
+            <h3>Here's some of the things I've achieved:</h3>
+            <ul class="achievements-list">
+                <li>- Bronze Duke of Edinburgh Award</li>
+                <li>- Delancey Cup Megafinalist</li>
+                <li>- Grade 4 Bharatnatyam</li>
+                <li>- Bronze in the Intermediate Maths Challenge</li>
+                <li>- Stage 10 Swimmer</li>
+                <li>- Ms Flair</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <h2>Here are some of my skills:</h2>
+            <ul>
+                <li>- Making Harshikaa fall in love with me</li>
+                <li>- Being British</li>
+                <li id="programming-skills-trigger">- Click here to see my programming skills</li>
+                <ul id="programming-skills-list" class="hidden">
+                    <li>- C programming</li>
+                    <li>- Python</li>
+                    <li>- HTML</li>
+                    <li>- CSS</li>
+                    <li>- JavaScript</li>
+                    <li>- Bash</li>
+                </ul>
+            </ul>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <h1>Here are my blogs:</h1><br><br>
+        <div class="blog-link-container">
+            <div class="blog-link">
+                <a href="blog1.html">Read Blog 1</a>
+            </div>
+            <div class="blog-link">
+                <a href="blog2.html">Read Blog 2</a>
+            </div>
+        </div>
+    </section>
+    
+<script src = "script.js"></script>
+</body>
+</html>
